@@ -5,4 +5,5 @@ class Asignatura:
     Docente:Docente
     Asignatura:Asignatura
 def _int_(self):
-    self.Docente=Docente()
+    self.Estudiante=Estudiante()
+    
