@@ -1,1 +1,8 @@
-class departamento:
+class Departamento:
+    str CodDepartamento
+    str NomDepartamento
+    
+        
+    
+    def __init__(self):
+        self.Facultad = Facultad()
