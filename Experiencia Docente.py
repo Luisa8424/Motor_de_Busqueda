@@ -1,6 +1,6 @@
 class ExperienciaDocente:
-    LugarTrabajo str:
-    FechaExperienciaDocente str:
-    AnosDocente str:
+    str LugarTrabajo
+    str FechaExperienciaDocente
+    int AnosDocente
 def _int_(self):
     self.Docente=Docente()
