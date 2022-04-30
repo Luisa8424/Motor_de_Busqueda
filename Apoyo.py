@@ -1,5 +1,5 @@
 class Apoyo:
-    NombreApoyo:str
-    FechaExperienciaDocente:str
-    AnosDocente:int()
+    str NombreApoyo
+    str TipoApoyo
+    date FechaApoyo: 
     
