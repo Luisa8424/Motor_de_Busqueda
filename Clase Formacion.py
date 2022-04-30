@@ -5,5 +5,5 @@ class Formacion:
     
         
     
-    def __init__(self):
+    def __init__(self, Docente):
         self.Docente = Docente()

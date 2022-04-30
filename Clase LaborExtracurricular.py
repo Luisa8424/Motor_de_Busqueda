@@ -5,3 +5,4 @@ class LaborExtracurricular:
     str  LugarDesempeno
     str  Cargo
     Date FechaLabor
+    
