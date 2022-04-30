@@ -1,11 +1,9 @@
 class Asignatura:
     str CodAsignatura
     str NomAsignatura
-    Grupo:Grupo []
-    Docente:Docente []
-    
-def _int_(self):
+    Grupo:Grupo ()
+      
+def _int_(self, Estudiante, Programa,):
     self.Estudiante=Estudiante()
-def _int_(self):
     self.Programa=Programa()
     
