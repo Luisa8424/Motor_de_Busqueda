@@ -1,4 +1,4 @@
 class Decano (Usuario):
-    Facultad:Facultad
+    str Funciones
 def _int_(self):
     self.Facultad=Facultad()
