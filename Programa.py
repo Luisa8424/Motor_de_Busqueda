@@ -1,9 +1,13 @@
 class Programa:
-    IdPrograma:str
-    NomPrograma:str
+    str IdPrograma
+    str NomPrograma
     Docente:Docente
-    Estudiantes:Estudiantes
-    Asignatura:Asignatura
+    Certifacion:Certifacion()
+    Asignatura:Asignatura()
 def _int_(self):
     self.Facultad=Facultad()
+def _int_(self):
+    self.Grupo=Grupo()
+def _int_(self):
+    self.Asignatura=Asignatura()
     
