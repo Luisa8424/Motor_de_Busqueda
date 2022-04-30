@@ -1,6 +1,7 @@
 class Departamento:
     str CodDepartamento
     str NomDepartamento
+    Coordinador: Usuario
     
         
     
