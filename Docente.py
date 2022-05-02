@@ -8,6 +8,4 @@ class Docente(Usuario):
     Formacion:Formacion
     Escalafon:Escalafon
     
-    def __init__(self,Programa,Asignatura):
-        self.Programa = Programa
-        self.Asignatura = Asignatura
+
