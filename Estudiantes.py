@@ -1,3 +1,4 @@
+#clase
 class Estudiantes:
     CodEstudiante:str
     Programa:Programa

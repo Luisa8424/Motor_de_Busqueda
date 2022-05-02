@@ -1,3 +1,4 @@
+#clase:
 class Grupo:
     CodGrupo:str
     NomGrupo:str
