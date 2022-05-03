@@ -1,6 +1,6 @@
 class Programa :
-    str IdPrograma
-    str NomPrograma
+    IdPrograma str:
+    NomPrograma str:
     Certifacion:Certifacion ()
     
 def _int_(self, Facultad, Asignatura, Grupo, Estudiante):
