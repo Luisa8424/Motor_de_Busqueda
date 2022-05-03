@@ -15,24 +15,24 @@ def Definir(self):
          """Mostrar """
          return Departamento
      
-   f = open("usuarios.txt", "w")
-   f.write(codDepartamento:str, nombreDepartamento: str)
-   87
-   f.close()
-   f=open("usuarios.txt", "a")
-   f.write("agregar codDepartamento, nombreDepartamento")
-   43
-   f.close()
-   f = open('usuarios.txt', 'r')
-   lines = f.readlines()
+f = open("usuarios.txt", "w")
+f.write(codDepartamento:str, nombreDepartamento: str)
+87
+f.close()
+f=open("usuarios.txt", "a")
+f.write("agregar codDepartamento, nombreDepartamento")
+43
+f.close()
+f = open('usuarios.txt', 'r')
+lines = f.readlines()
    
-   for i in range(len(lines)):
+for i in range(len(lines)):
        lines[i] = lines[i].replace('\n', '')
        lista_codDepartamento_nombreDepartamento = []
-   for i in lines:
+for i in lines:
        lista_codDepartamento_nombreDepartamento.append(i.split(" "))
        departamento = []
-   for i in lista_codDepartamento_nombreDepartamento:
+for i in lista_codDepartamento_nombreDepartamento:
        departamento.append(i[0])
        departamento.sort()
        print(departamento)
