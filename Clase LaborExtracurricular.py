@@ -6,4 +6,5 @@ class LaborExtracurricular:
     LugarDesempeno: str
     Cargo: str
     FechaLabor: date
+    Docente: Docente ()
     
