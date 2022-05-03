@@ -31,11 +31,11 @@ def Definir(self):
        lista_codDepartamento_nombreDepartamento = []
    for i in lines:
        lista_codDepartamento_nombreDepartamento.append(i.split(" "))
-       publicaciones = []
+       departamento = []
    for i in lista_codDepartamento_nombreDepartamento:
-       Departamento.append(i[0])
-       Departamento.sort()
-       print(Departamento)
+       departamento.append(i[0])
+       departamento.sort()
+       print(departamento)
        f.close()
        
        
