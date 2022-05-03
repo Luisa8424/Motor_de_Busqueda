@@ -9,7 +9,7 @@ class Programa :
         self.Estudiante=Estudiante
 
     def BuscarPrograma(self):
-        print("DefinirPrograma.")
+        print("Definir Programa.")
 Programa.BuscarPrograma()
 
 
