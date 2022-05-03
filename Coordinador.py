@@ -1,6 +1,7 @@
 class Coordinador(Usuario):
-    Departamento:Departamento
-
-    def __init__(self,Departamento):
-        self.Departamento = Departamento
+    Funciones:str
         
+    def BuscarCoordinador(self):
+        print("Coordinador")
+
+Coordinador.BuscarCoordinador()
