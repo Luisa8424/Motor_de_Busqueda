@@ -1,8 +1,9 @@
+from datetime import date
 from sqlite3 import Date
 
 
 class LaborExtracurricular:
-    str  LugarDesempeno
-    str  Cargo
-    Date FechaLabor
+    LugarDesempeno: str
+    Cargo: str
+    FechaLabor: date
     
