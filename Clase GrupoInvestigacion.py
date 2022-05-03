@@ -10,7 +10,10 @@ class GrupoInvestigacion:
     def BuscarGrupoInvestigacion(self,nombreGrupo:str, fechaGrupoinvestigacion: date, docente: Docente ):
          """Mostrar """
        return nombreGrupo:str, fechaGrupoInvestigacion: date, docente: Docente
-   
+    
+    def ActualizarGrupoInvestigacion(self,nombreGrupo:str, fechaGrupoinvestigacion: date):
+         """Mostrar """
+       return nombreGrupo:str, fechaGrupoInvestigacion: date
    
      
    f = open("usuarios.txt", "w")
