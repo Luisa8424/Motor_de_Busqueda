@@ -1,6 +1,6 @@
 class Facultdad:
-    str IdFacultad
-    str NombreFacultad
-    Programa:Programa ()
-    Departamento:Departamento ()
+    IdFacultad:str
+    NombreFacultad:str
+    Programa:Programa
+    Departamento:Departamento
     Decano:Decano

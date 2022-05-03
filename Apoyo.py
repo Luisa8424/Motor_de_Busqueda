@@ -1,5 +1,5 @@
 class Apoyo:
-    str NombreApoyo
-    str TipoApoyo
-    Date FechaApoyo:
+    NombreApoyo:str
+    TipoApoyo:str
+    FechaApoyo:Date
     

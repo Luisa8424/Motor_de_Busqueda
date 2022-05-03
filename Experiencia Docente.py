@@ -1,6 +1,6 @@
 class ExperienciaDocente:
-    str LugarTrabajo
-    Date FechaExperienciaDocente
-    int AnosDocente
-def _int_(self, Docente):
-    self.Docente=Docente()
+    LugarTrabajo:str
+    FechaExperienciaDocente:date
+    AnosDocente:int
+    def _int_(self, Docente):
+        self.Docente=Docente
