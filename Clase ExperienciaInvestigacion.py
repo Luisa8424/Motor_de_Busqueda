@@ -1,4 +1,4 @@
 class ExperienciaInvestigacion:
-    int AnosInvestigacion 
-    int CantidadPublicaciones
-    str TipoPublicacion
+    AnosInvestigacion: int 
+    CantidadPublicaciones: int
+    TipoPublicacion: str

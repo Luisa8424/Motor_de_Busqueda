@@ -1,9 +1,9 @@
 class Departamento:
-    str CodDepartamento
-    str NomDepartamento
+    CodDepartamento: str
+    NomDepartamento: str
     Coordinador: Usuario
     
         
     
-    def __init__(self):
+    def __init__(self, facultad):
         self.Facultad = Facultad()

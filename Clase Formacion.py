@@ -1,7 +1,7 @@
 class Formacion:
-    str CodFormacion
-    str TipoFormacion
-    str NombreFormacion
+    CodFormacion: str
+    TipoFormacion: str
+    NombreFormacion: str
     
         
     
