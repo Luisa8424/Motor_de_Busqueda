@@ -32,11 +32,11 @@ class GrupoInvestigacion:
        lista_nombreGrupo_fechaGrupoinvestigacion_docente_ = []
    for i in lines:
        lista_nombreGrupo_fechaGrupoinvestigacion_docente.append(i.split(" "))
-       nombres = []
+       grupoInvestigacion = []
    for i in lista_nombreGrupo_fechaGrupoinvestigacion_docente:
-       nombres.append(i[0])
-       nombres.sort()
-       print(nombres)
+       grupoInvestigacion.append(i[0])
+       grupoInvestigacion.sort()
+       print(grupoInvestigacion)
        f.close()
        
    
