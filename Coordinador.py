@@ -1,4 +1,4 @@
-#clase
+
 class Coordinador(Usuario):
     Departamento:Departamento
 

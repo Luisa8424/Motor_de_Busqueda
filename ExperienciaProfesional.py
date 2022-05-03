@@ -1,4 +1,4 @@
-#clase
+
 class ExperienciaProfesional:
     AnosProfesiona:int
 
