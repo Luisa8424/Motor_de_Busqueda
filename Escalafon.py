@@ -1,4 +1,3 @@
-
 class Escalafon:
     CodEscalafon:str
     TipoEscalafon:str
