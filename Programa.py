@@ -3,10 +3,9 @@ class Programa :
     NomPrograma:str
     Certifacion:Certifacion
     
-    def _int_(self, Facultad, Asignatura, Grupo, Estudiante):
+    def _int_(self, Facultad, Asignatura, Estudiante):
         self.Facultad=Facultad
         self.Asignatura=Asignatura
-        self.Grupo=Grupo
         self.Estudiante=Estudiante
 
     
