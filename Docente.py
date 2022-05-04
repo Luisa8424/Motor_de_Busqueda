@@ -8,8 +8,11 @@ class Docente(Usuario):
     Formacion:Formacion
     Escalafon:Escalafon
 
-    def __init__(self,Programa):
-        self.Programa = Programa
+    def __init__(self,ExperienciaProfesional, ExperienciaDocente, Escalafon, Formacion):
+        self.ExperienciaProfesional = ExperienciaProfesional
+        self.ExperienciaDocente = ExperienciaDocente
+        self.Escalafon = Escalafon
+        self.Formacion = Formacion
 
     def BuscarDocente(self):
         print("BuscarDocente.")
