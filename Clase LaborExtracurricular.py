@@ -8,15 +8,15 @@ class LaborExtracurricular:
     FechaLabor: date
     Docente: Docente ()
     
-def BuscarLaborExtracurricular(self,lugarDesempeno:str, cargo: str, fechaLabor: str, docente: Docente ):
+    def BuscarLaborExtracurricular(self,lugarDesempeno:str, cargo: str, fechaLabor: str, docente: Docente ):
          """Mostrar """
          return LugarDesempeno:str, cargo: str, fechaLabor: str, docente: Docente
    
-f = open("usuarios.txt", "w")
-f.write(lugarDesempeno:str, cargo: str, fechaLabor: str, docente: Docente)
-63
-f.close()
-f=open("usuarios.txt", "a")
+    f = open("usuarios.txt", "w")
+    f.write(lugarDesempeno:str, cargo: str, fechaLabor: str, docente: Docente)
+    63
+    f.close()
+    f=open("usuarios.txt", "a")
 f.write("agregar lugarDesempeno, cargo, fechaLabor, docente")
 47
 f.close()

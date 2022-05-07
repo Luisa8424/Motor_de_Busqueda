@@ -8,14 +8,14 @@ class Formacion:
     
         
     
-def __init__(self, Docente):
+    def __init__(self, Docente):
         self.Docente = Docente()
         
-def BuscarFormacion(self,codFormacion:str, tipoFormacion: str, nombreFormacion: str ):
+    def BuscarFormacion(self,codFormacion:str, tipoFormacion: str, nombreFormacion: str ):
          """Mostrar """
-         return codFormacion:str, tipoFormacion: str, nombreFormacion: str
+        return codFormacion:str, tipoFormacion: str, nombreFormacion: str
    
-def DefinirFormacion(self):
+    def DefinirFormacion(self):
          """Mostrar """
          return DefinirFormacion
      
